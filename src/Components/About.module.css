@@ -1,6 +1,22 @@
 .about {
     height: 100vh;
-    width:100%;
+    max-width:100%;
     background-color: rgb(254, 218, 161);
     padding-top:15vh;
+    padding-inline: 25px;
+    overflow: hidden;
+    color:  rgb(114, 73, 6);
+}
+.about h1 {
+    font-weight: 800;
+    font-size:48px;
+    text-align: center;
+}
+.horizontal {
+    width: 75%;
+    margin-top: 15px;
+    margin: 10px auto;
+    background-color: rgb(137, 47, 2);
+    height: 4px;
+    align-self: center;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import LogoPath from "../icons8-bbb.svg";
+import LogoPath from "../logo.svg";
 import classes from "./Navbar.module.css";
 
 
