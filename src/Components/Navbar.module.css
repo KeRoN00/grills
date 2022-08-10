@@ -1,13 +1,12 @@
 .navbar {
- 
-    display: flex;
-    width: 100%;
-    background: rgb(137, 47, 2);
-    height: 15vh;
-    align-items: center;
-    position: fixed;
-    top: 0px;
-    overflow: hidden;
+  display: flex;
+  width: 100%;
+  background: rgb(137, 47, 2);
+  height: 15vh;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  overflow: hidden;
 }
 .navbarLogo {
   width: 15%;
@@ -18,9 +17,9 @@
   justify-content: center;
 }
 .navbarLogo p {
-color: white;
-margin: 0 5px;
-text-align: center;
+  color: white;
+  margin: 0 5px;
+  text-align: center;
 }
 .navbar img {
   cursor: pointer;
@@ -29,19 +28,18 @@ text-align: center;
   width: 85%;
   font-size: 25px;
   list-style-type: none;
-  display:flex;
+  display: flex;
   flex-direction: row;
- 
- 
   font-weight: 700;
+  gap: 10px;
+}
+.navbar li {
+  cursor: pointer;
 }
 .navlink {
-  margin-right: 10px;
   padding: 10px 25px;
   border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.3s ;
-  
+  transition: background 0.3s;
 }
 .navbarlist a {
   text-decoration: none;
@@ -50,4 +48,16 @@ text-align: center;
 .navlink:hover {
   background: rgb(195, 62, 5);
 }
-
+@media screen and (max-width: 687px) {
+  .navbar ul {
+    font-size: 18px;
+  }
+  .navbarlogo img {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .navbarLogo p {
+    display: none;
+  }
+}

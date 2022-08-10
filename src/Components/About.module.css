@@ -1,5 +1,4 @@
 .about {
-    height: 100vh;
     max-width:100%;
     background-color: rgb(254, 218, 161);
     padding-top:15vh;
@@ -12,7 +11,7 @@
     font-size:48px;
     text-align: center;
 }
-.horizontal {
+.horizontal_line {
     width: 75%;
     margin-top: 15px;
     margin: 10px auto;
