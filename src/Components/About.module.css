@@ -1,9 +1,10 @@
 .about {
     max-width:100%;
     background-color: rgb(254, 218, 161);
-    padding-top:15vh;
+    padding-top:70px;
     padding-inline: 25px;
     overflow: hidden;
+    text-align: justify;
     color:  rgb(114, 73, 6);
 }
 .about h1 {

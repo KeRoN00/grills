@@ -1,63 +1,86 @@
-.navbar {
+.navbar{
+  width:100%;
+  height:70px;
   display: flex;
-  width: 100%;
-  background: rgb(137, 47, 2);
-  height: 15vh;
+  justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0px;
-  overflow: hidden;
+  background-color: bisque;
+  color: black;
+  font-family:fantasy;
+  position: sticky;
+  top: 0;
 }
-.navbarLogo {
-  width: 15%;
-  height: 60px;
+.navbarInfo{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
-.navbarLogo p {
-  color: white;
-  margin: 0 5px;
-  text-align: center;
+.brand {
+  font-size: x-large;
 }
-.navbar img {
-  cursor: pointer;
-}
-.navbar ul {
-  width: 85%;
-  font-size: 25px;
-  list-style-type: none;
+
+.navbarlinks{
+  margin:0;
+  padding:0;
   display: flex;
   flex-direction: row;
-  font-weight: 700;
-  gap: 10px;
+  background-color: bisque;
 }
-.navbar li {
-  cursor: pointer;
+.navbarlinks li{
+  list-style: none;
 }
-.navlink {
-  padding: 10px 25px;
-  border-radius: 10px;
-  transition: background 0.3s;
-}
-.navbarlist a {
+.navbarlinks li a{
   text-decoration: none;
-  color: white;
+  padding:1rem;
+  color: black;
+  display: block;
 }
-.navlink:hover {
-  background: rgb(195, 62, 5);
+.navbarlinks li:hover{
+  background-color: burlywood;
 }
-@media screen and (max-width: 687px) {
-  .navbar ul {
-    font-size: 18px;
+
+.toggleBtn{
+  position: absolute;
+  cursor: pointer;
+  top: 25px;
+  right: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggleBtn .bar{
+  height: 3px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 10px;
+}
+@media (max-width: 600px){
+  .toggleBtn{
+    display: flex;
   }
-  .navbarlogo img {
-    margin-left: 10px;
-  }
-}
-@media screen and (max-width: 1100px) {
-  .navbarLogo p {
+  .navbarlinks{
     display: none;
   }
+  .navbarInfo{
+    padding:.5rem 0 ;
+  }
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbarlinks{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbarlinks li{
+    text-align: center;
+  }
+  .navbarlinks li{
+   padding:.5rem 1rem;
+  }
+  .expanded {
+    display: flex;
+  }
+  
 }

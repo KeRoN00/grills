@@ -1,19 +1,41 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import LogoPath from "../logo.svg";
 import classes from "./Navbar.module.css";
-
+import { useState } from "react";
 
 const Navbar = () => {
+  const [navButton, setNavButton] = useState(false);
+  const handleToggleButton = () => {
+    setNavButton(!navButton);
+  };
+  const handleCloseNavbar = () => {
+    setNavButton(false);
+  };
   return (
     <div className={classes.navbar}>
-      <div className={classes.navbarLogo}>
+      <div className={classes.navbarInfo}>
         <img src={LogoPath} alt="Logo" />
-        <p>Grzegorz Listwoń</p>
+        <div className={classes.brand}>Kominki GL</div>
       </div>
-      <ul className={classes.navbarlist}>
-      <a href="#Gallery"><li className={classes.navlink}>Galeria</li></a>
-      <a href="#About"><li className={classes.navlink}>O mnie</li></a>
-      <a href="#Contact"><li className={classes.navlink}>Kontakt</li></a>
+      <div className={classes.toggleBtn} onClick={handleToggleButton}>
+        <span className={classes.bar}></span>
+        <span className={classes.bar}></span>
+        <span className={classes.bar}></span>
+      </div>
+      <ul
+        className={`${classes.navbarlinks} ${navButton ? classes.expanded : ''}`}
+
+      >
+        <li onClick={handleCloseNavbar}>
+          <a href="#">Galeria</a>
+        </li>
+        <li onClick={handleCloseNavbar}>
+          <a href="#About">Info</a>
+        </li>
+        <li onClick={handleCloseNavbar}>
+          <a href="#Contact">Kontakt</a>
+        </li>
       </ul>
     </div>
   );
