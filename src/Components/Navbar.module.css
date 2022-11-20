@@ -9,10 +9,12 @@
   font-family:fantasy;
   position: sticky;
   top: 0;
+  
 }
 .navbarInfo{
   display: flex;
   align-items: center;
+  margin: auto 20px;
 }
 .brand {
   font-size: x-large;
@@ -24,9 +26,11 @@
   display: flex;
   flex-direction: row;
   background-color: bisque;
+  
 }
 .navbarlinks li{
   list-style: none;
+  border-top: 1px solid rgb(114, 73, 6, 0.2);
 }
 .navbarlinks li a{
   text-decoration: none;
@@ -74,10 +78,12 @@
     flex-direction: column;
   }
   .navbarlinks li{
+    padding: 0;
     text-align: center;
   }
-  .navbarlinks li{
-   padding:.5rem 1rem;
+  .navbarlinks li a{
+    width: 100%;
+    padding:1.5rem 0;
   }
   .expanded {
     display: flex;
