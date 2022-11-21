@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from "./GalleryItem.module.css"
-const GalleryItem = () => {
+const Card = () => {
   return (
     <div className={classes.card}>
       <div className={classes.image}>
@@ -14,4 +14,4 @@ const GalleryItem = () => {
   )
 }
 
-export default GalleryItem
+export default Card

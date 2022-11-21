@@ -1,6 +1,6 @@
 import React  from "react";
 import classes from "./Gallery.module.css";
-import GalleryItem from "./GalleryItem";
+import Card from "../UI/Card";
 
 const Gallery = () => {
  
@@ -10,11 +10,11 @@ const Gallery = () => {
       <div className={classes.carousel} data-simplebar
       
       >
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );

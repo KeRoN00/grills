@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./About.module.css";
 import TextField from "../UI/TextField";
 import AboutTextField from "./AboutTextField";
-import { about_texts } from "../Assets/Texts";
+import { about_texts } from "../Constants/Texts";
 
 
 const About = () => {

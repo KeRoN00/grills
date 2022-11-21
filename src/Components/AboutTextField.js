@@ -1,6 +1,6 @@
 import React from "react";
-import { additional_options } from "../Assets/Texts";
-import { stone_options } from "../Assets/Texts";
+import { additional_options } from "../Constants/Texts";
+import { stone_options } from "../Constants/Texts";
 
 const AboutTextField = () => {
   return (
