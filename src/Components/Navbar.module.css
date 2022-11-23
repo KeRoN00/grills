@@ -8,7 +8,8 @@
   color: black;
   font-family:fantasy;
   position: sticky;
-  top: 0;
+   top: 0;
+  z-index: 999;
   
 }
 .navbarInfo{

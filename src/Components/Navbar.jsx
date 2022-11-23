@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
 import LogoPath from "../logo.svg";
 import classes from "./Navbar.module.css";

@@ -16,9 +16,4 @@
   scrollbar-color: rgb(114, 73, 6) rgb(254, 218, 161);
   scrollbar-width: thin;
 }
-.carousel::-webkit-scrollbar-button {
-  background-color: transparent;
-  background: transparent;
-  color: transparent;
-}
 
