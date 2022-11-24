@@ -22,4 +22,3 @@ const About = () => {
 };
 
 export default About;
-// clip-path: polygon(0 20%, 99% 0, 100% 80%, 0% 100%);
