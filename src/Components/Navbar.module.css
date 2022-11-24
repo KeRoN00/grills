@@ -28,10 +28,11 @@
   flex-direction: row;
   background-color: bisque;
   
+  
 }
 .navbarlinks li{
   list-style: none;
- 
+  margin-right: 20px;
 }
 .navbarlinks li a{
   text-decoration: none;

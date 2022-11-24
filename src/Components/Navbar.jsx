@@ -28,7 +28,7 @@ const Navbar = () => {
 
       >
         <li onClick={handleCloseNavbar}>
-          <a href="#">Galeria</a>
+          <a href="#Gallery">Galeria</a>
         </li>
         <li onClick={handleCloseNavbar}>
           <a href="#About">Info</a>

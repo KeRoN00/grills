@@ -1,22 +1,19 @@
 .about {
     max-width:100%;
+    min-height: 100vh;
     background-color: rgb(254, 218, 161);
-    padding-top:70px;
-    padding-inline: 25px;
-    overflow: hidden;
-    text-align: justify;
-    color:  rgb(114, 73, 6);
+    color:  rgb(254, 218, 161);
 }
 .about h1 {
     font-weight: 800;
     font-size:48px;
     text-align: center;
+    margin-top: 4rem;
 }
-.horizontal_line {
-    width: 75%;
-    margin-top: 15px;
-    margin: 10px auto;
-    background-color:rgb(114, 73, 6);
-    height: 4px;
-    align-self: center;
+.polygon{
+    width:fit-content;
+    height: 100%;
+    padding:30px;
+    background-color: rgb(114, 73, 6);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 }

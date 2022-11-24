@@ -8,14 +8,18 @@ import { about_texts } from "../Constants/Texts";
 const About = () => {
   return (
     <div className={classes.about} id="About">
-      <div className={classes.horizontal_line} />
+      <div className={classes.polygon}>
       <h1>Opis kominków</h1>
+      <div className={classes.aboutContent}>
       <AboutTextField/>
       {about_texts.map(({ text, title, id }) => {
         return <TextField key={id} title={title} text={text} />;
       })}
+      </div>
+      </div>
     </div>
   );
 };
 
 export default About;
+// clip-path: polygon(0 20%, 99% 0, 100% 80%, 0% 100%);
