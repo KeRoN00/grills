@@ -1,13 +1,12 @@
 
 .gallery {
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   background-color: rgb(254, 218, 161);
 }
 .carousel{
   height: 650px;
   overflow-x: scroll;
   display: flex;
-  
   padding: 0 15px;
   grid-template-columns: repeat(6, 400px);
 	grid-template-rows: 1fr;

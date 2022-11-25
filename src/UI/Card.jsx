@@ -1,10 +1,11 @@
 import React from 'react'
-import classes from "./GalleryItem.module.css"
+import classes from "./Card.module.css"
+import image from "../Assets/zdj.jpg"
 const Card = () => {
   return (
     <div className={classes.card}>
       <div className={classes.image}>
-         zdjecie
+         <img src={image} alt="zdjecie" />
       </div>
       <div className={classes.description}>
       info

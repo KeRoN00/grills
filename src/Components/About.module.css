@@ -12,8 +12,7 @@
 }
 .polygon{
     width:fit-content;
-    height: 100%;
-    padding:30px;
+    padding:50px 30px;
     background-color: rgb(114, 73, 6);
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
 }
