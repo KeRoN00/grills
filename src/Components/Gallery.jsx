@@ -7,9 +7,7 @@ const Gallery = () => {
   //console.log(liczba);
   return (
     <div className={classes.gallery} id="Gallery">
-      <div className={classes.carousel} data-simplebar
-      
-      >
+      <div className={classes.carousel}>
         <Card />
         <Card />
         <Card />
