@@ -1,5 +1,10 @@
 import React, { useRef } from "react";
 import classes from "./Contact.module.css";
+import emailjs from '@emailjs/browser';
+
+const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+const templateID = import.meta.env.VITE_TEMPLATE_ID;
+const serviceID = import.meta.env.VITE_SERVICE_ID;
 
 const Contact = () => {
   
@@ -8,6 +13,15 @@ const Contact = () => {
 
   const formSubmitHandler = (e) => {
     e.preventDefault();
+    const emailParams = {
+      from_name: emailInputRef.current.value,
+      message: messageInputRef.current.value
+    };
+    emailjs.send(serviceID,templateID,emailParams,publicKey).then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log("ERROR");
+    });
   }
 
   return (
@@ -17,7 +31,7 @@ const Contact = () => {
         <div className={classes.left}>
           <div>
           <h3>Telefon</h3>
-          <p>+48012345678</p>
+          <p>+48 691 945 111</p>
           </div>
           <div>
           <h3>Adres</h3>

@@ -4,6 +4,8 @@ import Contact from "./Components/Contact";
 import Gallery from "./Components/Gallery";
 import Layout from "./Layout/Layout";
 
+
+
 function App() {
   return (
     <Layout>
