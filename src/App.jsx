@@ -1,18 +1,14 @@
 import "./App.css";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Gallery from "./Components/Gallery";
-import Layout from "./Layout/Layout";
+import Routing from "./Layout/Routing";
 
 
 
 function App() {
   return (
-    <Layout>
-      <Gallery />
-      <About />
-      <Contact />
-    </Layout>
+    <>
+      <Routing />
+    </>
+    
   );
 }
 

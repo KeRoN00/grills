@@ -37,6 +37,7 @@
     "@vitejs/plugin-react": "1.1.1",
     "dotenv": "^16.0.3",
     "file-loader": "^6.2.0",
+    "react-router-dom": "^6.4.4",
     "vite": "^2.9.15"
   }
 }

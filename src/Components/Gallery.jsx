@@ -1,19 +1,13 @@
 import React  from "react";
 import classes from "./Gallery.module.css";
-import Card from "../UI/Card";
+import Carousel from "../UI/Carousel";
+import { zestawyMale, zestawyDuze } from "../Constants/galleryItems";
 
 const Gallery = () => {
- 
-  //console.log(liczba);
   return (
-    <div className={classes.gallery} id="Gallery">
-      <div className={classes.carousel}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
+    <div className={classes.gallery}>
+      <Carousel content={zestawyMale} />
+      <Carousel content={zestawyDuze} />
     </div>
   );
 };

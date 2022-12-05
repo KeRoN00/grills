@@ -1,15 +1,11 @@
 import React from 'react'
 import classes from "./Card.module.css"
-import image from "../Assets/zdj.jpg"
-const Card = () => {
+const Card = ({imagePath}) => {
+  
   return (
     <div className={classes.card}>
       <div className={classes.image}>
-         <img src={image} alt="zdjecie" />
-      </div>
-      <div className={classes.description}>
-      info
-
+         <img src={`${imagePath}.jpg`} loading="lazy" alt={imagePath} />
       </div>
     </div>
   )

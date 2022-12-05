@@ -3,6 +3,7 @@ import React from "react";
 import LogoPath from "../logo.svg";
 import classes from "./Navbar.module.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [navButton, setNavButton] = useState(false);
@@ -25,16 +26,15 @@ const Navbar = () => {
       </div>
       <ul
         className={`${classes.navbarlinks} ${navButton ? classes.expanded : ''}`}
-
       >
         <li onClick={handleCloseNavbar}>
-          <a href="#Gallery">Galeria</a>
+          <Link to="/gallery">Galeria</Link>
         </li>
         <li onClick={handleCloseNavbar}>
-          <a href="#About">Info</a>
+          <Link to="/">Info</Link>
         </li>
         <li onClick={handleCloseNavbar}>
-          <a href="#Contact">Kontakt</a>
+          <Link to="contact">Kontakt</Link>
         </li>
       </ul>
     </div>
