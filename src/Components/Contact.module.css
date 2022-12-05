@@ -72,7 +72,7 @@ textarea {
 .right button:hover {
   background-color: rgba(152, 106, 32, 0.6);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
   }
