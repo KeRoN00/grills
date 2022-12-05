@@ -69,3 +69,29 @@ export const zestawyDuze = [
     },
 
 ];
+export const bioKominki = [
+    {
+        id: 1,
+        imgPath:'src/assets/biokominki/bio1'
+    },
+    {
+        id: 2,
+        imgPath:'src/assets/biokominki/bio2'
+    },
+    {
+        id: 3,
+        imgPath:'src/assets/biokominki/bio3'
+    },
+    {
+        id: 4,
+        imgPath:'src/assets/biokominki/bio4'
+    },
+    {
+        id: 5,
+        imgPath:'src/assets/biokominki/bio5'
+    },
+    {
+        id: 6,
+        imgPath:'src/assets/biokominki/bio6'
+    },
+]

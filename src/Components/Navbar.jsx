@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className={classes.navbar}>
       <div className={classes.navbarInfo}>
         <img src={LogoPath} alt="Logo" />
-        <div className={classes.brand}>Kominki GL</div>
+        <Link to="/" className={classes.brand}>Kominki GL</Link>
       </div>
       <div className={classes.toggleBtn} onClick={handleToggleButton}>
         <span className={classes.bar}></span>
@@ -28,10 +28,10 @@ const Navbar = () => {
         className={`${classes.navbarlinks} ${navButton ? classes.expanded : ''}`}
       >
         <li onClick={handleCloseNavbar}>
-          <Link to="/gallery">Galeria</Link>
+          <Link to="gallery">Galeria</Link>
         </li>
         <li onClick={handleCloseNavbar}>
-          <Link to="/">Info</Link>
+          <Link to="forsale">Info</Link>
         </li>
         <li onClick={handleCloseNavbar}>
           <Link to="contact">Kontakt</Link>

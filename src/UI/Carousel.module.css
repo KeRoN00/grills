@@ -1,5 +1,5 @@
 .carousel{
-    height: 650px;
+    height: 600px;
     overflow-x: scroll;
     display: flex;
     padding: 0 15px;
@@ -9,4 +9,14 @@
     scroll-behavior: smooth;
     scrollbar-color: rgb(114, 73, 6) rgb(254, 218, 161);
     scrollbar-width: thin;
+  }
+  .galleryView {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(114, 73, 6);
+    margin: 20px 0;
+  }
+  .galleryView h1 {
+    margin-bottom: 0;
   }
