@@ -5,6 +5,7 @@ import About from "../Components/About";
 import Contact from "../Components/Contact";
 import ForSale from "../Components/ForSale";
 import Layout from "./Layout";
+import ForSaleItem from "../Components/ForSaleItem";
 
 const Routing = () => {
   return (
@@ -15,6 +16,7 @@ const Routing = () => {
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
           <Route path="forsale" element={<ForSale />} />
+          <Route path="forsale/:id" element={<ForSaleItem />} />
         </Routes>
       </Layout>
     </BrowserRouter>

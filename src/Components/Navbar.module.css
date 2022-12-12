@@ -8,19 +8,27 @@
   color: black;
   font-family:fantasy;
   position: sticky;
-   top: 0;
-  z-index: 999;
+  top: 0;
+  border-bottom: 2px solid rgb(114, 73, 6, 0.4);
   
 }
 .navbarInfo{
-  display: flex;
-  align-items: center;
   margin: auto 20px;
+  padding: 0.3rem 0.5rem ;
+}
+.navbarInfo:hover {
+  background-color: burlywood;
+}
+.navbarInfo img {
+  height: 40px;
 }
 .brand {
   font-size: x-large;
   text-decoration: none;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbarlinks{
@@ -63,7 +71,7 @@
   background-color: gray;
   border-radius: 10px;
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
   .toggleBtn{
     display: flex;
   }

@@ -16,8 +16,7 @@ const Navbar = () => {
   return (
     <div className={classes.navbar}>
       <div className={classes.navbarInfo}>
-        <img src={LogoPath} alt="Logo" />
-        <Link to="/" className={classes.brand}>Kominki GL</Link>
+        <Link to="/" className={classes.brand}><img src={LogoPath} alt="Logo" />Kominki GL</Link>
       </div>
       <div className={classes.toggleBtn} onClick={handleToggleButton}>
         <span className={classes.bar}></span>
@@ -31,7 +30,7 @@ const Navbar = () => {
           <Link to="gallery">Galeria</Link>
         </li>
         <li onClick={handleCloseNavbar}>
-          <Link to="forsale">Info</Link>
+          <Link to="forsale">Sprzedarz</Link>
         </li>
         <li onClick={handleCloseNavbar}>
           <Link to="contact">Kontakt</Link>
