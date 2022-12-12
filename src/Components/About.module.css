@@ -2,17 +2,11 @@
     max-width:100%;
     min-height: 100vh;
     background-color: rgb(254, 218, 161);
-    color:  rgb(254, 218, 161);
+    color: rgb(114, 73, 6);
 }
 .about h1 {
     font-weight: 800;
     font-size:48px;
     text-align: center;
     margin-top: 4rem;
-}
-.polygon{
-    width:fit-content;
-    padding:50px 30px;
-    background-color: rgb(114, 73, 6);
-    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
 }

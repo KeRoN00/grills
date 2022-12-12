@@ -15,7 +15,7 @@ const ForSale = () => {
                 <h3>{title}</h3>
                 <p>Cena: <strong>{price} zł</strong> </p>
                 <p>Numer: {id}</p>
-                <Link to={`/forsale/:${id}`}>Więcej info</Link>
+                <p><Link to={`/forsale/${id}`}>Więcej info</Link></p>
             </div>
         </div>
         ))}
