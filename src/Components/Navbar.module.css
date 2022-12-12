@@ -9,8 +9,8 @@
   font-family:fantasy;
   position: sticky;
   top: 0;
+  z-index: 10;
   border-bottom: 2px solid rgb(114, 73, 6, 0.4);
-  
 }
 .navbarInfo{
   margin: auto 20px;

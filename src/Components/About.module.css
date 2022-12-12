@@ -1,6 +1,7 @@
 .about {
-    max-width:100%;
+    width:100%;
     min-height: 100vh;
+    overflow-x: hidden;
     background-color: rgb(254, 218, 161);
     color: rgb(114, 73, 6);
 }
@@ -8,5 +9,85 @@
     font-weight: 800;
     font-size:48px;
     text-align: center;
-    margin-top: 4rem;
+}
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.aboutText {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 90%;
+    padding:20px;
+    height:100%;
+}
+.grillClasses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: justify;
+    
+}
+.grillClass {
+    width: 90%;
+    border: 2px solid rgb(114, 73, 6,0.4);
+    border-radius: 20px;
+    padding:20px;
+    margin: 20px;
+}
+h2{
+    margin:0;
+    text-align: center;
+}
+.texts h3 {
+    border: 2px solid rgb(114, 73, 6,0.4);
+    border-radius: 20px;
+    padding: 30px;
+}
+h3:first-child {
+    top:0;
+}
+h3:last-child {
+    bottom:0;
+}
+.image {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width:100%;
+    min-width: 500px;
+    height: 100%;
+}
+.image img {
+    width: 80%;
+    height: 80%;
+    margin:20px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1280px) {
+    .aboutText {
+        flex-direction: column;
+    }
+    .image img {
+        padding:0 20px;
+    }
+    .grillClasses {
+        flex-direction: column;
+        align-items: center;
+    }
 }

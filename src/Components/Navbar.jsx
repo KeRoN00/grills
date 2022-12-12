@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className={classes.navbar}>
       <div className={classes.navbarInfo}>
-        <Link to="/" className={classes.brand}><img src={LogoPath} alt="Logo" />Kominki GL</Link>
+        <Link onClick={handleCloseNavbar} to="/" className={classes.brand}><img src={LogoPath} alt="Logo" />Kominki GL</Link>
       </div>
       <div className={classes.toggleBtn} onClick={handleToggleButton}>
         <span className={classes.bar}></span>
