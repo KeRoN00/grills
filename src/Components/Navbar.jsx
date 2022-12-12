@@ -27,7 +27,7 @@ const Navbar = () => {
         className={`${classes.navbarlinks} ${navButton ? classes.expanded : ''}`}
       >
         <li onClick={handleCloseNavbar}>
-          <Link to="gallery">Galeria</Link>
+          <Link to="about">O mnie</Link>
         </li>
         <li onClick={handleCloseNavbar}>
           <Link to="forsale">Sprzedarz</Link>
