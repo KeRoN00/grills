@@ -9,7 +9,7 @@
     height:calc(100vh - 70px);
     overflow-y: scroll;
     scroll-behavior:smooth;
-  scrollbar-color: rgb(114, 73, 6) rgb(254, 218, 161);
+  scrollbar-color: rgb(114, 73, 6) bisque;
   scrollbar-width: thin;
   scrollbar-gutter: auto;
 

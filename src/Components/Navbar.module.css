@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: bisque;
+  background-color: rgb(254, 218, 161);
   color: black;
   font-family:fantasy;
   position: sticky;
@@ -15,6 +15,7 @@
 .navbarInfo{
   margin: auto 20px;
   padding: 0.3rem 0.5rem ;
+  border-radius:10px;
 }
 .navbarInfo:hover {
   background-color: burlywood;
@@ -36,19 +37,20 @@
   padding:0;
   display: flex;
   flex-direction: row;
-  background-color: bisque;
   
   
 }
 .navbarlinks li{
   list-style: none;
   margin-right: 20px;
+  border-radius:10px;
 }
 .navbarlinks li a{
   text-decoration: none;
   padding:1rem;
   color: black;
   display: block;
+  
 }
 .navbarlinks li:hover{
   background-color: burlywood;
@@ -91,6 +93,8 @@
   }
   .navbarlinks li{
     padding: 0;
+    width:90%;
+    margin: 0 auto;
     text-align: center;
     border-top: 1px solid rgb(114, 73, 6, 0.2);
   }
@@ -100,6 +104,9 @@
   }
   .expanded {
     display: flex;
+  }
+  .navbarInfo {
+    margin: 5px;
   }
   
 }

@@ -1,10 +1,9 @@
 .contact {
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 80vh;
   width: 100%;
-  background-color: rgb(254, 218, 161);
-  margin-top: 20px;
+  background-color: bisque;
   color: rgb(114, 73, 6);
   align-items: center;
   justify-content: center;

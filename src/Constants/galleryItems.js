@@ -67,6 +67,10 @@ export const zestawyDuze = [
         id: 8,
         imgPath:'src/assets/zestawy7w1/kom8'
     },
+    {
+        id: 9,
+        imgPath:'src/assets/zestawy7w1/kom9'
+    }
 
 ];
 export const bioKominki = [
@@ -100,25 +104,21 @@ export const naSprzedarz = [
     {
         id: 1,
         title: "Zestaw 6w1",
-        price: "6950",
         imgPath: 'src/assets/nasprzedarz/kom1'
     },
     {
         id: 2,
         title: "Zestaw 6w1",
-        price: "5950",
         imgPath: 'src/assets/nasprzedarz/kom2'
     },
     {
         id: 3,
         title: "Zestaw 6w1",
-        price: "7950",
         imgPath: 'src/assets/nasprzedarz/kom3'
     },
     {
         id: 4,
         title: "Zestaw 6w1",
-        price: "3950",
         imgPath: 'src/assets/nasprzedarz/kom4'
     },
 ];

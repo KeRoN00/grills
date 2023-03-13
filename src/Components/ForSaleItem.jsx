@@ -4,7 +4,7 @@ import { naSprzedarz } from "../Constants/galleryItems";
 import classes from "./ForSaleItem.module.css";
 const ForSaleItem = () => {
   const { id } = useParams();
-  const { title, price, imgPath } = naSprzedarz.find((item) => item.id == id);
+  const { title, imgPath } = naSprzedarz.find((item) => item.id == id);
   return (
     <div className={classes.container}>
       <div className={classes.forsale}>
@@ -14,7 +14,6 @@ const ForSaleItem = () => {
         <div className={classes.right}>
           <p>{id}</p>
           <p>{title}</p>
-          <p>{price}</p>
         </div>
       </div>
     </div>
