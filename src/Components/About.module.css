@@ -2,8 +2,10 @@
     width:100%;
     min-height: 100vh;
     overflow-x: hidden;
-    background-color: bisque;
-    color: rgb(114, 73, 6);
+    backdrop-filter: blur(10px);
+    color:white;
+    text-shadow: 3px 3px 3px #000;
+    font-family: 'Signika Negative', sans-serif;
 }
 .about h1 {
     font-weight: 800;
@@ -38,18 +40,15 @@
     flex-direction: row;
     align-items: flex-start;
     text-align: justify;
+    margin: 0 10px;
     
 }
 .grillClass {
     width: 90%;
-    border: 2px solid rgb(114, 73, 6,0.4);
+    border: 2px solid rgb(255,255,255,0.7);
     border-radius: 20px;
     padding:20px;
     margin: 20px;
-}
-h2{
-    margin:0;
-    text-align: center;
 }
 .texts h3 {
     border: 2px solid rgb(114, 73, 6,0.4);

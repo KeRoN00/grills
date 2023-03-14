@@ -2,7 +2,6 @@
 import React from 'react'
 import classes from "./Carousel.module.css"
 import Card from "../UI/Card";
-
 const Carousel = ({title, content}) => {
     return (
     <div className={classes.galleryView} >
