@@ -6,7 +6,10 @@
     flex-shrink: 0;
     margin: auto;
     overflow: hidden;
-    box-shadow: 2px 4px 5px 1px rgb(0,0,0,0.4);
+    box-shadow: 2px 4px 3px 1px rgb(0,0,0,0.6);
+}
+.image:hover {
+    transform: scale(1.1);
 }
 .image{
     height: 100%;
@@ -14,6 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    
 }
 .image img {
     width: 100%;

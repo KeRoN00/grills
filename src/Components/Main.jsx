@@ -9,7 +9,7 @@ const Main = () => {
            <Link to='/gallery' className={classes.button} >Zobacz Galerię</Link>
             <div className={classes.contact}>
                 <p><FaPhoneAlt color='white' className={classes.icon} />Tel: 691 945 111</p>
-                <p><a href={googleMapsPath} target='_blank'><FaMapMarkerAlt color='white' className={classes.icon}/>44-266 Świerklany, <span>ul. Słoneczna 14</span></a></p>
+                <p className={classes.address}><a href={googleMapsPath} target='_blank'><FaMapMarkerAlt color='white' className={classes.icon}/>44-266 Świerklany, <span>ul. Słoneczna 14</span></a></p>
 
             </div>
         </div>

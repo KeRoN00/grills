@@ -22,7 +22,7 @@
     padding:10px;
     color:white;
     justify-content: center;
-    
+    backdrop-filter: blur(2px);
     text-shadow: 2px 2px 2px black;
 }
 .contact > p {
@@ -60,6 +60,7 @@
     font-weight: bold;
     position: absolute;
     bottom: 20vh;
+    backdrop-filter: blur(2px);
     transition: all 0.2s ease-in-out;
 }
 .button:hover {

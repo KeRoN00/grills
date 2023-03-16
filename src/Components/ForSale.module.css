@@ -1,13 +1,17 @@
 .main {
+    backdrop-filter: blur(2px);
+    background-color: rgb(0,0,0,0.3);
+    font-family: 'Signika Negative', sans-serif;
     display:flex;
     flex-direction: column;
     align-items: center;
     min-height: 80vh;
     width:100%;
-    background-color: bisque;
+    
 }
 .main h1 {
-    color:rgb(114, 73, 6);
+    color:white;
+    text-shadow: 3px 3px 3px black;
 }
 .list {
     width: 100%;
@@ -23,7 +27,8 @@
     margin: 20px;
     position: relative;
     border-radius: 30px;
-    box-shadow: 1px 3px 5px 3px rgb(0,0,0,0.4);
+    box-shadow: 3px 3px  5px rgb(255,255,255,0.4);
+    border:1px solid rgb(255,255,255,0.6);
 }
 .listitem img {
     max-width: 100%;
