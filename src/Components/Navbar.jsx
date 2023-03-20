@@ -1,5 +1,5 @@
 
-import React, { Suspense } from "react";
+import React from "react";
 import LogoPath from "../logo.svg";
 import classes from "./Navbar.module.css";
 import { useState } from "react";
@@ -14,12 +14,14 @@ const Navbar = () => {
     setIsVisible(!isVisible);
     setNavButton(!navButton);
   };
+
   const handleCloseNavbar = () => {
     setIsVisible(false);
     setTimeout(()=> {
       setNavButton(false);
     },300);
   };
+  
   return (
     <div className={classes.navbar}>
       <div className={classes.navbarInfo}>
@@ -41,7 +43,7 @@ const Navbar = () => {
         </li>
 
         <li onClick={handleCloseNavbar}>
-          <Link to="about">O mnie</Link>
+          <Link to="info">O mnie</Link>
         </li>
 
       </ul>

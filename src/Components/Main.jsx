@@ -12,7 +12,7 @@ const Main = () => {
 
     return (
         <div className={classes.main}>
-            <Link to='/galeria' className={classes.button} >Zobacz Galerię</Link>
+            <Link to='/galeria' className={classes.button}>Zobacz Galerię</Link>
             <div className={classes.contact}>
                 <p onClick={() => copyPhoneNumberHandler()}><FaPhoneAlt color='white' className={classes.icon} />Tel: <span id="phone">691 945 111</span></p>
                 <p><a href={googleMapsPath} target='_blank'><FaMapMarkerAlt color='white' className={classes.icon} />44-266 Świerklany, <span>ul. Słoneczna 14</span></a></p>
