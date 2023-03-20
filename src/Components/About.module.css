@@ -2,9 +2,10 @@
     width:100%;
     min-height: 100vh;
     overflow-x: hidden;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    background-color: rgb(0,0,0,0.3);
     color:white;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 0px 3px 3px #000;
     font-family: 'Signika Negative', sans-serif;
 }
 .about h1 {
@@ -15,14 +16,10 @@
 .aboutContent {
     display: flex;
     flex-direction: column;
-    height: 50%;
 }
 .aboutText {
-    min-height: 70vh;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     overflow: hidden;
 }
 .texts {
@@ -37,28 +34,37 @@
 }
 .grillClasses {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     text-align: justify;
     margin: 0 10px;
+    padding:40px;
     
 }
 .grillClass {
-    width: 90%;
+    width: 100%;
     border: 2px solid rgb(255,255,255,0.7);
     border-radius: 20px;
     padding:20px;
     margin: 20px;
+    background-color: rgb(0,0,0,0.3);
 }
-.texts h3 {
-    border: 2px solid rgb(114, 73, 6,0.4);
+.grillClass > h2 {
+    margin: 10px auto;
+}
+.grillClass > p {
+    font-size: 18px;
+}
+.texts h2 {
+    border: 2px solid rgb(255,255,255,0.4);
     border-radius: 20px;
     padding: 30px;
+    margin:20px auto;
+    background-color: rgb(0,0,0,0.3);
 }
-h3:first-child {
+h2:first-child {
     top:0;
 }
-h3:last-child {
+h2:last-child {
     bottom:0;
 }
 .image {

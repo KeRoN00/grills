@@ -9,7 +9,6 @@ const Gallery = () => {
 
 const spinner = <div className={classes.ldsspinner}><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>;
 
-debugger
   return (
     <div className={classes.gallery}>
       <div className={classes.background} />

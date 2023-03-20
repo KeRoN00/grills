@@ -34,10 +34,10 @@ const Navbar = () => {
         className={`${classes.navbarlinks} ${isVisible && classes.expanded} ${!isVisible && classes.open}`}
         >
         <li onClick={handleCloseNavbar}>
-          <Link to="gallery">Galeria</Link>
+          <Link to="galeria">Galeria</Link>
         </li>
         <li onClick={handleCloseNavbar}>
-          <Link to="forsale">Sprzedarz</Link>
+          <Link to="na-sprzedarz">Sprzedarz</Link>
         </li>
 
         <li onClick={handleCloseNavbar}>

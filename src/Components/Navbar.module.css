@@ -135,6 +135,10 @@
     margin: 0 auto;
     text-align: center;
     border-radius: 0;
+    border-top: 1px solid rgb(255,255,255,0.4);
+  }
+  .navbarlinks li:last-child {
+    border-bottom: 1px solid rgb(255,255,255,0.4);
   }
   .navbarlinks li:hover {
     background-color: rgb(0,0,0,0.7);

@@ -32,6 +32,7 @@
     font-size: 22px;
     margin:0;
     padding-inline: 20px;
+    user-select: none;
 
 }
 .contact > p > a {
@@ -43,6 +44,9 @@
     width: 20px;
     margin-right: 10px;
     transition: transform 0.2s ease;
+}
+.contact p:hover {
+    cursor: pointer;
 }
 .contact p:hover  .icon {
     transform:scale(1.3);
