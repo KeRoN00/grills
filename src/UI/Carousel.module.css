@@ -12,6 +12,12 @@
 .carousel:last-child {
   margin-bottom: 20px;
 }
+.carousel:hover {
+  cursor:grab;
+}
+.carousel:active {
+  cursor:grabbing;
+}
   .galleryView {
     display:flex;
     flex-direction: column;

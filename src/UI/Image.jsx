@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useState } from 'react'
 import classes from './Image.module.css'
 
 const Image = ({ imgPath, alt }) => {
