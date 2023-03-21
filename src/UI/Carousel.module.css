@@ -8,6 +8,7 @@
     scrollbar-color: black white;
     scrollbar-width: thin;
     scroll-padding: 10px;
+    width:100%;
 }
 .carousel:last-child {
   margin-bottom: 20px;
@@ -22,10 +23,16 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    width:100vw;
   }
   .galleryView:not(:first-child) {
     margin: 20px 0;
   }
   .galleryView h1 {
     padding-top:30px;
+  }
+  @media (max-width: 698px) {
+    .carousel {
+      width:95%;
+    }
   }
