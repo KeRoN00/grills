@@ -2,13 +2,14 @@
     height: 600px;
     overflow-x: scroll;
     display: flex;
-    padding: 0 15px;
+    margin: 0 20px;
+    padding:0 20px;
     grid-column-gap: 1rem;
     scroll-behavior: smooth;
     scrollbar-color: black white;
     scrollbar-width: thin;
     scroll-padding: 10px;
-    width:100%;
+    width: calc(100% - 40px);
 }
 .carousel:last-child {
   margin-bottom: 20px;

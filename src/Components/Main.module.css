@@ -70,6 +70,16 @@
 .button:hover {
     transform:scale(1.1);
     background-color: rgb(0,0,0,0.7);
+    cursor: pointer;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link div {
+    display:flex;
+
 }
 @media (max-width: 768px) {
     .contact {
@@ -79,4 +89,14 @@
         align-items: center;
         overflow-wrap: break-word;
     }
+    .link {
+        
+        align-items: center;
+        justify-content: center;
+
+    }
+    .link div {
+        flex-direction: column;
+    }
+    
 }
