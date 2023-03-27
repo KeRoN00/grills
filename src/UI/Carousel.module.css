@@ -8,8 +8,7 @@
     scroll-behavior: smooth;
     scrollbar-color: black white;
     scrollbar-width: thin;
-    scroll-padding: 10px;
-    width: calc(100% - 40px);
+    width: calc(100% - 50px);
 }
 .carousel:last-child {
   margin-bottom: 20px;

@@ -30,6 +30,7 @@
     min-height: 200px;
     margin: 20px;
     border-radius: 30px;
+    position: relative;
     display: flex;
     overflow: hidden;
     align-items: center;
@@ -37,4 +38,18 @@
     background-color: rgb(0,0,0,0.3);
     box-shadow: 2px 5px 5px  rgb(0,0,0,0.6);
     border: 1px solid rgb(255,255,255);
+}
+.number {
+    position: absolute;
+    width:50px;
+    height:50px;
+    background: red;
+    color:white;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top:20px;
+    left: 20px;
 }

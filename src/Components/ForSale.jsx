@@ -10,6 +10,7 @@ const ForSale = () => {
         {naSprzedarz.map(({ id, imgPath }) => (
           <div key={id} imagepath ={imgPath} className={classes.listitem}>
             <Image imgPath={imgPath} alt={`na-sprzedarz-${id}`}/>
+            <div className={classes.number}>{id}</div>
           </div>
         ))}
       </div>
