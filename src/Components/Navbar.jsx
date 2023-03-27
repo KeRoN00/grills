@@ -7,19 +7,14 @@ import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
-  const [navButton, setNavButton] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   
   const handleToggleButton = () => {
     setIsVisible(!isVisible);
-    setNavButton(!navButton);
   };
 
   const handleCloseNavbar = () => {
     setIsVisible(false);
-    setTimeout(()=> {
-      setNavButton(false);
-    },300);
   };
   
   return (

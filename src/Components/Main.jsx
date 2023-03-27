@@ -14,7 +14,15 @@ const Main = () => {
             <Link to='/galeria' className={classes.button}>Zobacz Galerię</Link>
             <div className={classes.contact}>
                 <p onClick={() => copyPhoneNumberHandler()}><FaPhoneAlt color='white' className={classes.icon} />Tel: <span id="phone">691 945 111</span></p>
-                <p><a href={googleMapsPath} target='_blank' className={classes.link}><FaMapMarkerAlt color='white' className={classes.icon} /><div><span>44-266 Świerklany,&nbsp;</span><br/> <span>ul. Słoneczna 14</span></div></a></p>
+                <div>
+                    <a href={googleMapsPath} target='_blank' className={classes.link}>
+                        <FaMapMarkerAlt color='white' className={classes.icon} />
+                        <div className={classes.address}>
+                            <p>44-266 Świerklany,&nbsp;</p>
+                            <p>ul. Słoneczna 14</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     )
