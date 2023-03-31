@@ -52,25 +52,32 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  transform: translateY(100px);
+  animation: opening 0.3s ease-in-out forwards;
+  
+}
+.navbarlinks .close {
   animation: close 0.3s ease-in-out forwards;
 }
-@keyframes open {
+@keyframes opening {
   0% {
-    transform: translateX(0);
+    opacity:0;
   }
   100% {
-    transform: translateX(-768px);
+    transform: translateY(0);
+    opacity:1;
   }
-  
 }
 @keyframes close {
   0% {
-    transform: translateX(768px);
+    opacity:1;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(100px);
+    opacity:0;
   }
 }
+
 .navbarlinks {
   position: absolute;
   right: 0px;
