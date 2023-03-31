@@ -1,0 +1,104 @@
+.main {
+  width: 100%;
+  min-height: 90vh;
+  object-fit: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.contact {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 10vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+  text-shadow: 2px 2px 2px black;
+}
+.contact > p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 22px;
+  margin: 0;
+  padding-inline: 20px;
+  user-select: none;
+}
+.contact > p > a {
+  text-decoration: none;
+  color: white;
+}
+.contact .icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+.contact p:hover {
+  cursor: pointer;
+}
+.contact p:hover .icon {
+  transform: scale(1.3);
+}
+.contact div:hover {
+  cursor: pointer;
+}
+.contact div:hover .icon {
+  transform: scale(1.3);
+}
+.button {
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  outline: none;
+  font-size: x-large;
+  border-radius: 20px;
+  border: 1px black solid;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20vh;
+  backdrop-filter: blur(2px);
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  transform: scale(1.1);
+  background-color: rgb(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+}
+.link div {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+    height: 15vh;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: break-word;
+  }
+  .link {
+    align-items: center;
+    justify-content: center;
+  }
+  .link div {
+    flex-direction: column;
+  }
+}

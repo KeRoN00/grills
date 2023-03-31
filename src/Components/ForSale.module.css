@@ -1,0 +1,55 @@
+.main {
+    backdrop-filter: blur(2px);
+    background-color: rgb(0,0,0,0.3);
+    font-family: 'Signika Negative', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width:100%;
+    
+}
+.main h1 {
+    color:white;
+    text-align: center;
+    margin-top:20px;
+    text-shadow: 3px 3px 3px black;
+}
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.listitem {
+    max-width: 500px;
+    max-height: 700px;
+    min-width:100px;
+    min-height: 200px;
+    margin: 20px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.3);
+    box-shadow: 2px 5px 5px  rgb(0,0,0,0.6);
+    border: 1px solid rgb(255,255,255);
+}
+.number {
+    position: absolute;
+    width:50px;
+    height:50px;
+    background: red;
+    color:white;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top:20px;
+    left: 20px;
+}
