@@ -121,4 +121,9 @@ export const naSprzedarz = [
         title: "Zestaw 6w1",
         imgPath: '/Assets/nasprzedarz/kom4'
     },
+    {
+        id: 5,
+        title: "Zestaw 6w1",
+        imgPath: '/Assets/nasprzedarz/kom5'
+    },
 ];

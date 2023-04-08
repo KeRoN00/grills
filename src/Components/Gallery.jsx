@@ -12,7 +12,7 @@ const Gallery = () => {
     <div className={classes.gallery}>
       <div className={classes.background} />
       <Suspense fallback={spinner} >
-        <Carousel title="Zestawy 5w1" content={zestawyMale} />
+        <Carousel title="Zestawy 6w1" content={zestawyMale} />
       </Suspense>
       <Suspense fallback={spinner} >
         <Carousel title="Zestawy 7w1" content={zestawyDuze} />
