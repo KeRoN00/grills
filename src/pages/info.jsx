@@ -1,13 +1,11 @@
-import { About, Navbar } from '@/Components'
+import { About } from '@/Components'
+import Layout from '@/Components/Layout'
 import React from 'react'
-
 const Info = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <About />
-
-    </div>
+    </Layout>
   )
 }
 

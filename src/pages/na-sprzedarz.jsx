@@ -1,12 +1,12 @@
-import { ForSale, Navbar } from '@/Components'
+import { ForSale } from '@/Components'
+import Layout from '@/Components/Layout'
 import React from 'react'
 
 const MaSprzedarz = () => {
   return (
-    <div> 
-      <Navbar />
+    <Layout>
       <ForSale />
-    </div>
+    </Layout>
   )
 }
 
